@@ -7,13 +7,9 @@
     flex-direction: row;
     background-color: olive;
 }
-.top-bar{
-    display: inline-block;
-    list-style: none;
-}
 nav{
     height: 50px;
-    background: indianred;
+    background: rgb(92, 192, 205);
 }
 nav > ul{
     float: right;
@@ -24,18 +20,59 @@ nav> ul > li {
     display: inline-block;
     line-height: 50px;
     margin:0 15px;
+    color: lawngreen;
     }
  nav > ul > li > a {
      position: relative;
      padding: 5px 0;
-     color: lightblue;
+     color: rgb(2, 14, 19);
      font-size:  18px;
      text-decoration: none;
+ }
+ .home{
+     background-image: url(images/dairyybreed3.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 500px;
+ }
+ .home > p{
+     text-align: center;
+     padding:5px;
  }
 h1{
     text-align: center;
 }
 .home > img{
     background-repeat: no-repeat;
-    
+
+}
+.research > img{
+    background-color: paleturquoise;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#twitter{
+    position: absolute;
+    width: 56px;
+     height: 55px;
+}
+#facebook{
+    position: absolute;
+ width: 57px;
+height: 55px;
+}
+#linkedin{
+    position: absolute;
+width: 62px;
+height: 55px;
+}
+#gmail{
+    position: absolute;
+ width: 57px;
+height: 53px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
 }

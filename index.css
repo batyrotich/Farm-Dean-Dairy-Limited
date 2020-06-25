@@ -5,11 +5,24 @@
 .header{
     display: flex;
     flex-direction: row;
-    background-color: olive;
+    justify-content: space-between;
+    background-color: rosybrown;
 }
+.header >h1 {
+    text-align: center;
+
+}
+.home > p {
+
+        position: relative;
+        color: blue;
+        font-weight: bold;     
+
+}
+
 nav{
     height: 50px;
-    background: rgb(92, 192, 205);
+    background: grey;
 }
 nav > ul{
     float: right;
@@ -47,32 +60,36 @@ h1{
     background-repeat: no-repeat;
 
 }
-.research > img{
-    background-color: paleturquoise;
-    flex-direction: column;
+.images{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-#twitter{
-    position: absolute;
-    width: 56px;
-     height: 55px;
-}
-#facebook{
-    position: absolute;
- width: 57px;
-height: 55px;
-}
-#linkedin{
-    position: absolute;
-width: 62px;
-height: 55px;
-}
-#gmail{
-    position: absolute;
- width: 57px;
-height: 53px;
+  }
+  main{
+      box-sizing: border-box;
+    background-color: lightslategray;
+    height:500px;
+    /*display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    */
+  }
+  .column {
+    float: left;
+    width: 28%;
+    padding: 5px;
+    height: 200px; 
+  }
+
+#animals{
+  content: "";
+  display: table;
+  clear: both;
 }
 #footer{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-around;
+    padding: 10px;
+    background-color: lightgrey;
+}  

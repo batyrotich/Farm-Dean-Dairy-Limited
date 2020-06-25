@@ -63,12 +63,20 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  main{
+    background-color: lawngreen;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:700px;
+  }
+  /*
 #animals{
     text-align: start;
-    background-color: lawngreen;
-}
+    */
 #footer{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    background-color: lightgrey;
 }  

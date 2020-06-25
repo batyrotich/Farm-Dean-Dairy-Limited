@@ -7,6 +7,17 @@
     flex-direction: row;
     background-color: olive;
 }
+.home > p {
+        position: absolute;
+width: 293px;
+height: 59px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+}
+
 nav{
     height: 50px;
     background: rgb(92, 192, 205);
@@ -47,32 +58,17 @@ h1{
     background-repeat: no-repeat;
 
 }
-.research > img{
-    background-color: paleturquoise;
-    flex-direction: column;
+.images{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-#twitter{
-    position: absolute;
-    width: 56px;
-     height: 55px;
-}
-#facebook{
-    position: absolute;
- width: 57px;
-height: 55px;
-}
-#linkedin{
-    position: absolute;
-width: 62px;
-height: 55px;
-}
-#gmail{
-    position: absolute;
- width: 57px;
-height: 53px;
+  }
+#animals{
+    text-align: start;
+    background-color: lawngreen;
 }
 #footer{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-around;
+    padding: 10px;
+}  

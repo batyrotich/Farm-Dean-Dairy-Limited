@@ -64,11 +64,13 @@ h1{
     justify-content: space-between;
   }
   main{
-    background-color: lawngreen;
-    display:flex;
+      box-sizing: border-box;
+    background-color: lightslategray;
+    height:600px;
+    /*display:flex;
     justify-content: space-between;
     flex-direction: column;
-    height:700px;
+    */
   }
   /*
 #animals{
